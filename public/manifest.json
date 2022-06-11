@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Shoppy Dashboard",
+  "name": "Shoppy Dashboard is a demo Ecommerce dashboard built with React, Tailwind CSS and Syncfusion",
   "icons": [
     {
       "src": "favicon.ico",
