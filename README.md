@@ -16,7 +16,7 @@
 
 <p>You can give it a try by heading to the following URL</p>
 
-### https://fire-next-livid.vercel.app/
+### https://shoppy-dashboard-roy.netlify.app/
 
 ## 💫Features
 
