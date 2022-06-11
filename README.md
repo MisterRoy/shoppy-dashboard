@@ -46,7 +46,7 @@
 #### Clone repository
 
 ```
-git clone https://github.com/MisterRoy/dashboard-app.git
+git clone https://github.com/MisterRoy/shoppy-dashboard.git
 ```
 
 #### Install dependencies
