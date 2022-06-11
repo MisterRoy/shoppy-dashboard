@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">🔥 Shoppy Dashboard 💹</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🏁Description
 
-## Available Scripts
+<h3 style="text-align: justify">Shoppy Dashboard is a demo Ecommerce dashboard built with React, Tailwind CSS and Syncfusion.<h3>
 
-In the project directory, you can run:
+## 🌐 Web demo
 
-### `npm start`
+![demo-web-desktop](https://drive.google.com/uc?export=download&id=12ePkDX1Lx_OU2joWiIWY5-jLbG6Pisgf)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📱 Mobile Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![demo-web-mobile](https://drive.google.com/uc?export=download&id=1azdVmpATh169r2eeuys3ZBFjdnX141ai)
 
-### `npm test`
+## 📺Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>You can give it a try by heading to the following URL</p>
 
-### `npm run build`
+### https://fire-next-livid.vercel.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💫Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🥽 Dark mode
+- 📱 Fully responsive
+- 📃 Grids tables with sort, search and pagination
+- 📅 Calendar with event and Drag & Drop
+- 📈 Kanban with Drag & Drop
+- 🖍️ WYSIWYG Text Editor
+- 💄 Color-Picker
+- 💹 Charts (Line, Area, Bar, Pie, Financial, Color-Mapping, Pyramid, Stacked)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⛏️Built With
 
-### `npm run eject`
+- [Node.js](https://nodejs.org/) - Runtine environment
+- [React.js](https://reactjs.org/) - Frontend library
+- [Syncfusion](https://www.syncfusion.com/) - The World's Best UI Component Suite for Building Powerful
+- [Tailwind CSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
+  Web, Desktop, and Mobile Apps
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⛓️Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/) v16.14.0 or higher
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀Run
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Clone repository
 
-## Learn More
+```
+git clone https://github.com/MisterRoy/dashboard-app.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install
+```
 
-### Code Splitting
+#### Launch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm start
+```
 
-### Analyzing the Bundle Size
+## 👨🏾‍💻Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Mr. Roy](https://github.com/MisterRoy)
 
-### Making a Progressive Web App
+## 👋🏿Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I built this app thanks to JS Mastery's [awesome tutorial](https://youtu.be/jx5hdo50a2M).
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React team at Meta (former Facebook)
+- Tailwind CSS Team
+- Syncfusion Team
+- All authors of the differents npm packages used in this project
