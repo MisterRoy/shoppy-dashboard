@@ -3,26 +3,13 @@ import {
   GridComponent,
   ColumnsDirective,
   ColumnDirective,
-  Resize,
-  Sort,
-  ContextMenu,
-  Filter,
   Page,
-  ExcelExport,
-  PdfExport,
-  Edit,
   Inject,
   Search,
   Toolbar,
 } from "@syncfusion/ej2-react-grids";
 
-import {
-  ordersData,
-  contextMenuItems,
-  ordersGrid,
-  employeesGrid,
-  employeesData,
-} from "../data/dummy";
+import { employeesGrid, employeesData } from "../data/dummy";
 import { Header } from "../components";
 
 const Employees = () => {

@@ -5,7 +5,6 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
 import { themeColors } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
-import { GiTriquetra } from "react-icons/gi";
 
 const ThemeSettings = () => {
   const { setColor, setMode, currentMode, currentColor, setThemeSettings } =

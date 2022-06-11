@@ -28,10 +28,8 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
 
 const Navbar = () => {
   const {
-    activeMenu,
     setActiveMenu,
     isClicked,
-    setIsClicked,
     handleClick,
     screenSize,
     setScreenSize,
@@ -94,7 +92,7 @@ const Navbar = () => {
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
             onClick={() => handleClick("userProfile")}
           >
-            <img src={avatar} className="rounded-full w-8 h-8" />
+            <img src={avatar} className="rounded-full w-8 h-8" alt="avatar" />
             <p>
               <span className="text-gray-400 text-14">Hi, </span>{" "}
               <span className="text-gray-400 font-bold ml-1 text-14">
