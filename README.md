@@ -6,11 +6,11 @@
 
 ## 🌐 Web demo
 
-![demo-web-desktop](https://drive.google.com/uc?export=download&id=12ePkDX1Lx_OU2joWiIWY5-jLbG6Pisgf)
+![demo-web-desktop](demo-web.gif)
 
 ## 📱 Mobile Demo
 
-![demo-web-mobile](https://drive.google.com/uc?export=download&id=1azdVmpATh169r2eeuys3ZBFjdnX141ai)
+![demo-web-mobile](demo-mobile.gif)
 
 ## 📺Live Demo
 
