@@ -8,10 +8,11 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { links } from "../data/dummy";
 import { itemsToOrder } from "@syncfusion/ej2/treemap";
 
-import { useStateContext } from "../contexts/ContextProcider";
+import { useStateContext } from "../contexts/ContextProvider";
 
 const Sidebar = () => {
-  const { activeMenu, setActiveMenu, screenSize } = useStateContext();
+  const { activeMenu, setActiveMenu, screenSize, currentColor } =
+    useStateContext();
 
   const handleCloseSideBar = () => {
     if (activeMenu && screenSize <= 900) {
@@ -20,7 +21,7 @@ const Sidebar = () => {
   };
 
   const activeLink =
-    "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-sky-500 text-md m-2";
+    "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-white text-md m-2";
   const normalLink =
     "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-md text-gray-700 dark:text-gray-200 dark:hover:text-black hover:bg-light-gray m-2";
 
@@ -60,6 +61,9 @@ const Sidebar = () => {
                     to={`/${link.name}`}
                     key={link.name}
                     onClick={handleCloseSideBar}
+                    style={({ isActive }) => ({
+                      backgroundColor: isActive ? currentColor : "",
+                    })}
                     className={({ isActive }) =>
                       isActive ? activeLink : normalLink
                     }
